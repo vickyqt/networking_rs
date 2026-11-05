@@ -12,8 +12,7 @@ pub enum TransportError {
 
 #[derive(Debug)]
 pub enum HttpProtocolError {
-    // this needs implementation too.
-    // what errors can protocal give to back
+    HttpParseError,
 }
 
 #[derive(Debug)]
